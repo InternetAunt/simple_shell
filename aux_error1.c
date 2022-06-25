@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * strcat_cd - function that concatenates the message for cd error
@@ -137,8 +137,4 @@ char *error_exit_shell(data_shell *datash)
 	_strcat(error, datash->args[0]);
 	_strcat(error, ": Illegal number: ");
 	_strcat(error, datash->args[1]);
-	_strcat(error, "\n\0");
-	free(ver_str);
 
-	return (error);
-}

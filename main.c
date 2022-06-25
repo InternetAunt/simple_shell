@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #include "holberton.h"
+=======
+#include "main.h"
+>>>>>>> af8d59c52612e86f12ffc7d8765e8a633c77e085
 
 /**
  * free_data - frees data structure
